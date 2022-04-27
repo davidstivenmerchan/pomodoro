@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: cadetblue;
+    font-family: 'Poppins', sans-serif;
+}
+.contenedor{
+    background: white;
+    width: 400px;
+    border-radius: 10px;
+    border: solid 1px grey;
+    box-shadow: 0px 0px 5px .2px;
+    transition: .5s;
+}
+
+.encabezado div{
+    text-align: center;
+    margin: 30px;
+}
+.encabezado div:nth-child(1){
+    font-size: 30px;
+    font-weight: bold;
+}
+.encabezado div:nth-child(2){
+    margin-top: -25px;
+    font-weight: bold;
+}
+#caja{ 
+    width: 60%;
+    outline: none;
+    border:1px solid transparent;
+    border-bottom: solid 1px gray;
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    transition: .5s all;
+}
+#caja:hover{
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+}
+#caja:focus{
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+}
+#boton_envio{
+    background: cadetblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 30%;
+    transition: .5s;
+    font-family: 'Poppins', sans-serif;
+}
+#boton_envio:hover{
+    background: black;
+    cursor: pointer;
+}
+.tareas div{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+.tareas div button{
+    width: 50%;
+    outline: none;
+    border:solid 1px gray;
+    border-radius: 5px;
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    transition: .5s all;
+}
+.tareas div button:hover{
+    background: cadetblue;
+    color: white;
+    cursor: pointer;
+    border: 1px solid transparent;
+
+}
+.tareas div div{
+    margin: 10px;
+    font-weight: bold;
+}
+.tareas div p{
+    background: gray;
+    width: 50%;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px;
+
+    
+}
